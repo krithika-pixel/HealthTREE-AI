@@ -1,0 +1,180 @@
+
+
+body{
+    background-color: #eaf6ff;
+    margin:0;
+    padding-top:90px;
+    font-family:Georgia, serif;
+}
+
+
+
+
+.navbar{
+    background-color:#e60000;
+    color:white;
+    padding:20px;
+    position:fixed;
+    top:0;
+    width:100%;
+    z-index:1000;
+}
+
+.nav-content{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    max-width:1200px;
+    margin:auto;
+}
+
+.logo{
+    font-size:24px;
+    font-weight:bold;
+    color:white;
+    text-decoration:none;
+}
+
+.nav-links{
+    list-style:none;
+    display:flex;
+    gap:20px;
+}
+
+.nav-links a{
+    color:white;
+    text-decoration:none;
+    font-size:18px;
+}
+
+.nav-links a:hover{
+    text-decoration:underline;
+}
+
+
+
+
+.big-card{
+    width:500px;
+    margin:120px auto 40px auto;
+    padding:30px;
+    background:white;
+    border-radius:12px;
+    box-shadow:0 6px 15px rgba(0,0,0,0.15);
+    text-align:center;
+}
+
+.big-card:hover{
+    transform:translateY(-5px);
+    transition:0.3s;
+}
+
+.big-card p{
+    line-height:1.6;
+}
+
+
+
+
+img{
+    width:200px;
+    height:200px;
+    margin:20px auto;
+    display:block;
+    border-radius:12px;
+}
+
+
+/* FEATURE TITLE */
+
+.feature-title{
+    margin-left:40px;
+    font-size:24px;
+}
+
+
+/* FEATURE CARDS */
+
+.feature-container{
+    display:flex;
+    flex-direction:column;
+    gap:20px;
+    margin-left:40px;
+    margin-top:20px;
+}
+
+.features-card{
+    width:650px;
+    margin:40px auto;
+    padding:25px;
+    background:white;
+    border-radius:12px;
+    box-shadow:0 6px 15px rgba(0,0,0,0.15);
+}
+
+.features-card h2{
+    text-align:center;
+    margin-bottom:20px;
+}
+
+.features-card ul{
+    padding-left:25px;
+}
+
+.features-card li{
+    margin-bottom:15px;
+    line-height:1.6;
+}
+
+.small-card{
+    width:300px;
+    padding:15px;
+    background:white;
+    border-radius:10px;
+    box-shadow:0 4px 8px rgba(0,0,0,0.2);
+    font-size:14px;
+    display:flex;
+    flex-direction:column;
+    align-items:flex-start;
+    gap:10px;
+}
+
+.small-card:hover{
+    transform:translateY(-5px);
+    transition:0.3s;
+}
+
+
+/* FOOTER */
+
+.footer{
+    background-color:hsl(0, 100%, 45%);
+    color:white;
+    text-align:center;
+    padding:20px;
+    margin-top:40px;
+}
+
+button{
+    background-color: hsl(0, 100%, 45%);
+    border-radius: 10px;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.guidance-button{
+    background-color: #0066cc;
+    color: white;
+    border-radius: 8px;
+    padding: 8px 16px;
+    border: none;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.guidance-button:hover{
+    background-color: #005bb5;
+}

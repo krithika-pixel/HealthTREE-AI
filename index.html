@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link rel="stylesheet" href="1.css">
+<title>🌿HealthTREE</title>
+</head>
+
+<body class="body">
+
+<header class="navbar">
+<div class="container nav-content">
+<a href="#" class="logo">🍃HealthTREE🍃</a>
+
+<nav>
+<ul class="nav-links">
+<li><a href="1.html">🧑🏻‍⚕️Home</a></li>
+<li><a href="2.html">🧑🏻‍⚕️About</a></li>
+<li><a href="3.html">🧑🏻‍⚕️Contact</a></li>
+</ul>
+</nav>
+
+</div>
+</header>
+
+
+
+
+<div class="big-card">
+
+<h1>🌿HealthTREE</h1>
+
+<p>
+❤️HealthTREE is an intelligent healthcare assistant designed to help users understand symptoms,
+access health information, and make better health decisions.
+</p>
+
+<p>
+❤️It provides instant responses to health queries, lifestyle guidance,
+and personalized suggestions through an AI-powered chatbot.
+</p>
+<p>❤️It is available 24/7 and provides a user-friendly interface for accessing health information.</p>
+
+<img src="healthtree.png" alt="Healthtree Logo" class="logo-img">
+
+</div>
+
+<div class="big-card">
+  <h1>🧠📊Why to fear when HealthTREE is here!?🩺💊</h1>
+  <button class="button">Totally Free to Use!💙
+</button>
+  <img src="chat-bot....front-page image.jpg" alt="Healthtree Logo" class="logo-img">
+</div>
+
+
+
+
+<footer class="footer">
+<div class="container">
+<p>Made with 💙 by Krithika Meenakshi</p>
+<p>&copy; 2026HealthTREE. All rights reserved.</p>
+
+
+
+</div>
+</footer>
+
+
+<script>
+  window.watsonAssistantChatOptions = {
+    integrationID: "69481560-692c-47f5-a718-0ed5d34d2591", // The ID of this integration.
+    region: "au-syd", // The region your integration is hosted in.
+    serviceInstanceID: "c3ad61a8-6597-4be3-867e-fedeff9ae609", // The ID of your service instance.
+    onLoad: async (instance) => { await instance.render(); }
+  };
+  setTimeout(function(){
+    const t=document.createElement('script');
+    t.src="https://web-chat.global.assistant.watson.appdomain.cloud/versions/" + (window.watsonAssistantChatOptions.clientVersion || 'latest') + "/WatsonAssistantChatEntry.js";
+    document.head.appendChild(t);
+  });
+</script>
+
+</body>
+</html>
